@@ -1,0 +1,147 @@
+.sb-shell {
+  width: 240px;
+  min-height: 100vh;
+  background: var(--wk-navy);
+  border-right: 1px solid #232b47;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 14px 18px;
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+}
+
+.sb-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 6px;
+  margin-bottom: 22px;
+}
+
+.sb-logo-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--wk-amber);
+  color: #1a1300;
+  font-weight: 800;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sb-wordmark {
+  font-weight: 700;
+  font-size: 14.5px;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.sb-org-pill {
+  font-size: 10.5px;
+  color: #8b93ab;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 160px;
+}
+
+.sb-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  background: var(--wk-amber);
+  color: #1a1300;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 9px;
+  border-radius: 8px;
+  margin: 0 4px 20px;
+}
+
+.sb-cta:hover {
+  filter: brightness(1.05);
+}
+
+.sb-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sb-nav-heading {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #626c8a;
+  margin: 0 10px 6px;
+}
+
+.sb-nav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sb-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #c3c9dc;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.sb-nav-item:hover {
+  background: #1c2340;
+  color: #fff;
+}
+
+.sb-nav-item-active {
+  background: var(--wk-accent);
+  color: #fff;
+}
+
+.sb-nav-badge {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sb-footer {
+  border-top: 1px solid #232b47;
+  padding-top: 14px;
+  margin-top: 14px;
+}
+
+.sb-session-role {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #e5e7eb;
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 900px) {
+  .sb-shell {
+    display: none;
+  }
+}
